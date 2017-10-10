@@ -1,0 +1,11 @@
+2017-07-04 05:42:26
+2017-07-04 05:42:31
+78
+Traceback (most recent call last):
+  File "exchange.py", line 52, in <module>
+    main()
+  File "exchange.py", line 13, in main
+    collect_obs_to_file("ETHUSD,07_03", 'ETHUSD', 5)
+  File "exchange.py", line 34, in collect_obs_to_file
+    time.sleep(frequency)
+KeyboardInterrupt
